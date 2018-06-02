@@ -1,4 +1,12 @@
-# freebitcoin
-scripts para facilitar o trabalho
-script 01
+# freebitcoin<br/>
+scripts para facilitar o trabalho<br/><br/>
+script 01<br/>
 script para iniciar com x satoshis e parar com n satoshis e dobrar a aposta caso perca.
+<br/>
+<br/>
+<h4>script 02</h4><br/>
+bla
+<br/>
+<br/>
+<h4>script LIST COOKIES</h4><br/>
+Lista cookies armazenados
