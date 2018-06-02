@@ -9,3 +9,23 @@ function listCookies() {
     return aString;
 } 
 listCookies();
+
+/* exemplo de lista
+"
+1 csrf_token=ON8UqqWHZ5Yb
+2  _ga=GA1.2.1182062418.1526221814
+3  btc_address=1LWv9pTuXK5VQwMR2bu3iJVNjKRFL1WBDs
+4  password=b32d152c361cea9b43f9c073c307e228d1348ff0cecb5cc411955da2b90d384e
+5  have_account=1
+6  login_auth=96777fd5d4ccebcb9d8673e30a064df41aed8558dcce67bb73105c69e1c0377a
+7  cookieconsent_dismissed=yes
+8  default_captcha=recaptcha
+9  _gid=GA1.2.180242406.1527222622
+10  free_play_sound=1
+11  last_play=1527967370
+"
+*/
+
+//Definindo um cookie:
+//
+document.cookie="username=John Doe; expires=Thu, 18 Dec 2018 12:00:00 UTC; path=/";
