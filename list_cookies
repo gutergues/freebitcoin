@@ -29,3 +29,6 @@ listCookies();
 //Definindo um cookie:
 //
 document.cookie="username=John Doe; expires=Thu, 18 Dec 2018 12:00:00 UTC; path=/";
+
+//Consulte também
+// https://plainjs.com/javascript/utilities/set-cookie-get-cookie-and-delete-cookie-5/
