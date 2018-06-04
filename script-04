@@ -99,6 +99,7 @@
         totprofit = 0;
         init = true;
         betval = basebet;
+        pipe = 0;
      
         //GUI
        
