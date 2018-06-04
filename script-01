@@ -8,7 +8,7 @@
 // ==/UserScript==
 // version 4.1
 // script para iniciar com x satoshis e parar com n satoshis e dobrar a aposta caso perca.
-//
+// Um button é adicionado [START BOT], usado para disparar o script
 console.clear();
 var begingbal = $('#balance').text();
 var startbalance = 0;
