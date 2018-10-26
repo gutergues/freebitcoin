@@ -1,0 +1,55 @@
+    // ==UserScript==
+    // @name         freebitco.in autoclaim
+    // @namespace    https://goo.gl/9yC4Lu
+    // @version      0.1.1
+    // @description  autoclaim freebitco.in https://goo.gl/9yC4Lu
+    // @author       Dekpiano
+    // @match        https://freebitco.in/?op=home
+    // @match        https://freebitco.in/
+    // @grant        none
+    // ==/UserScript==
+
+    $(document).ready(function(){
+        setInterval(function(){
+            //$('#free_play_form_button').trigger('click');
+            if ($('#free_play_form_button').is(':visible')) {
+                $('#free_play_form_button').trigger('click');
+
+//$autobeButton = $("#auto_bet_on");
+
+//$autobeButton.trigger("click");
+
+                var betoddsin = 9.00,
+                    betoddsin = (betoddsin * 1.00).toFixed(2),
+                    autobet_roll = 10000;
+
+                $('#autobet_bet_odds').val(betoddsin);
+
+                $('#autobet_roll_count').val(autobet_roll);
+
+                $("#stop_after_profit").prop("checked", true);
+
+                startValue = 0.00001001;
+                startValue = (startValue * 1.000).toFixed(8);
+                $('#stop_after_profit_value').val(startValue);
+
+                auto_bet_on_loseButton = $("#show_double_your_btc_auto_bet_on_lose");
+                auto_bet_on_loseButton.trigger("click");
+
+                $("#autobet_lose_return_to_base").prop("checked", false);
+                $("#autobet_lose_increase_bet").prop("checked", true);
+                $("#autobet_lose_change_odds").prop("checked", true);
+
+                var bet_percet = 50;
+                $("#autobet_lose_increase_bet_percent").val(bet_percet);
+
+                autobet_lose_change_odds_valor = 3;
+                $("#autobet_lose_change_odds_value").val(autobet_lose_change_odds_valor);
+
+                $("#autobet_change_client_seed").prop("checked", true);
+
+                $("#autobet_dnr").prop("checked", true);
+
+            }
+        },10000);
+    });
